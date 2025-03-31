@@ -1,0 +1,142 @@
+/* --------------HERO */
+#hero {
+	background: var(--color-secondary);
+  background: radial-gradient(circle at top right, rgba(33,156,186,0.9) 0.5%, rgba(2,48,71,1) 30%);
+  display: flex;
+  justify-content: center;
+}
+
+#hero .content {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	padding: 8rem 0;
+}
+
+.hero-title {
+	text-align: center;
+	font-size: 4.2rem;
+}
+
+.hero-title.orange {
+	color: var(--color-primary);
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	border: 3px solid var(--color-primary);
+	border-radius: 3px;
+}
+
+.hero-description {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.hero-cta {
+	display: block;
+	margin: 0 auto;
+}
+
+#hero i {
+	text-align: center;
+}
+
+/* --------------TESTIMONIALS */
+#testimonials {
+	color: #000;
+	padding: 8rem 10rem;
+}
+
+#testimonials .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6rem;
+}
+
+.testimonials-title {
+	text-align: center;
+	font-size: 4.2rem;
+}
+
+.testimonials-title.orange {
+	color: var(--color-primary);
+}
+
+.testimonials-card {
+	border: 2px solid var(--color-primary);
+	padding: 3rem;
+	width: fit-content;
+	border-radius: 6px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	gap: 3rem;
+}
+
+/* --------------DIVIDER 1 */
+#divider {
+	padding: 2rem 8rem 8rem 8rem;
+}
+
+#divider .content {
+	background-color: var(--color-secondary);
+	padding: 5rem 8rem;
+	border-radius: 2rem;
+	text-align: center;
+}
+
+.tip {
+	font-size: 2.8rem;
+}
+
+.tip.underlined {
+	text-decoration: underline;
+}
+
+/* --------------COURSE DETAILS */
+#course-details {
+	background-color: var(--color-secondary);
+	padding: 8rem;
+}
+
+.course-details-title {
+	font-size: 4.2rem;
+	text-align: center;
+	margin-bottom: 8rem;
+}
+
+#course-details .content {
+	display: flex;
+	gap: 4rem;
+}
+
+.card {
+	width: fit-content;
+	padding: 5rem 4rem;
+	border: 1px solid var(--color-tertiary);
+	border-radius: 16px;
+	background-color: hsla(0, 0%, 100%, 0.1);
+	box-shadow: 1px 4px 12px 1px rgba(33, 158, 188, 60%),
+	-1px -4px 12px 1px rgba(33, 158, 188, 60%);
+}
+
+.card-title {
+	font-size: 3.2rem;
+	text-align: center;
+	color: var(--color-primary);
+}
+
+.card-description {
+	margin-top: 3rem;
+	line-height: 1.7;
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: 300;
+}

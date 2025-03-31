@@ -1,0 +1,56 @@
+:root {
+  --color-primary: #FB8500;
+  --color-primary-50: rgba(251, 133, 0, .5);
+  --color-secondary: #023047;
+  --color-tertiary: #219cba;
+  --color-tertiary-halfed: rgba(33, 156, 186, .5)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 98vw;
+}
+
+.content {
+  max-width: 144rem;
+}
+
+@media (max-width: 1360px) {
+  html {
+    font-size: 56.25%;
+  }
+}
