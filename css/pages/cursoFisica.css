@@ -1,16 +1,17 @@
 /* --------------HERO */
 #hero {
 	background: var(--color-secondary);
-  background: radial-gradient(circle at top right, rgba(33,156,186,0.9) 0.5%, rgba(2,48,71,1) 30%);
+	background: radial-gradient(circle at top left, var(--color-tertiary) .5%,var(--color-secondary) 30%);
   display: flex;
+	flex-direction: column;
   justify-content: center;
+	padding: 5rem 8rem;
 }
 
 #hero .content {
 	display: flex;
 	flex-direction: column;
 	gap: 5rem;
-	padding: 8rem 0;
 }
 
 .hero-title {
@@ -33,6 +34,7 @@ iframe {
 	text-align: center;
 	font-weight: 300;
 	font-size: 2rem;
+	margin: 2rem 0 6rem 0;
 }
 
 .hero-cta {
@@ -62,6 +64,10 @@ iframe {
 	font-size: 4.2rem;
 }
 
+.testimonials-title:nth-child(2) {
+	margin-bottom: 6rem;
+}
+
 .testimonials-title.orange {
 	color: var(--color-primary);
 }
@@ -87,6 +93,7 @@ iframe {
 
 #divider .content {
 	background-color: var(--color-secondary);
+	background: linear-gradient(to bottom right, var(--color-secondary) 30%, var(--color-tertiary) 100%);
 	padding: 5rem 8rem;
 	border-radius: 2rem;
 	text-align: center;
@@ -103,6 +110,7 @@ iframe {
 /* --------------COURSE DETAILS */
 #course-details {
 	background-color: var(--color-secondary);
+	background: radial-gradient(circle at top right, var(--color-tertiary) .5%, var(--color-secondary) 30%);
 	padding: 8rem;
 }
 
@@ -140,3 +148,42 @@ iframe {
 	text-align: center;
 	font-weight: 300;
 }
+
+/* --------------BONUS */
+#bonus {
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8rem;
+}
+
+#bonus .content {
+	display: flex;
+	gap: 4rem;
+}
+
+.bonus-title {
+	margin-bottom: 6rem;
+	font-size: 4.2rem;
+}
+
+.card.bonus {
+	box-shadow: 1px 4px 12px 1px rgba(251, 133, 0, .5),
+	-1px -4px 12px 1px rgba(251, 133, 0, .5);
+	border: 1px solid var(--color-primary);
+}
+
+.card-title.bonus {
+	text-align: left;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+.card-description.bonus {
+	text-align: left;
+	font-size: 1.6rem;
+	color: #888;
+	margin-top: 1.5rem;
+}
+

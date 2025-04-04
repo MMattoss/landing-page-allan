@@ -1,0 +1,15 @@
+.bg-orange {
+  background-color: var(--color-primary) !important;
+}
+
+.text-orange {
+  color: var(--color-primary) !important;
+}
+
+.text-black {
+  color: rgb(25, 28, 31) !important;
+}
+
+.text-blue {
+  color: #1E3A8A !important;
+}
