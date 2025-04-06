@@ -13,3 +13,7 @@
 .text-blue {
   color: #1E3A8A !important;
 }
+
+.line-through {
+  text-decoration: line-through;
+}
