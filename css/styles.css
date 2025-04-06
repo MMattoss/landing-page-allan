@@ -35,6 +35,10 @@ ul {
   list-style: none;
 }
 
+section > header {
+  margin-bottom: 6rem;
+}
+
 body {
   color: #fff;
   font-family: 'Poppins', sans-serif;
