@@ -2,6 +2,9 @@
   background-color: var(--color-primary) !important;
 }
 
+.bg-black {
+  background-color: #000 !important;
+}
 .text-orange {
   color: var(--color-primary) !important;
 }
@@ -14,6 +17,31 @@
   color: #1E3A8A !important;
 }
 
+.text-light-grey {
+  color: #888;
+}
+
 .line-through {
   text-decoration: line-through;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.section-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+.margin-center {
+  margin: 0 auto;
 }

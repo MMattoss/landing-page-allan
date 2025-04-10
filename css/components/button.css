@@ -11,12 +11,11 @@
   border: none;
   width: fit-content;
   height: fit-content;
+  transition: all .2s;
+  padding: 1.5rem 2.5rem;
 }
 
-@media (max-width: 1360px) {
-  .primary-btn {
-    font-size: 2rem;
-    padding: 1.5rem 2.5rem;
-  }
+.primary-btn:hover {
+  background-color: rgb(189, 101, 0);
+  transform: translateY(-3px) scale(1.1);
 }
-
