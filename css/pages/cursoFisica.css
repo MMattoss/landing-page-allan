@@ -425,6 +425,11 @@ iframe {
 	font-size: 4.5rem;
 }
 
+.price span {
+	font-size: 2rem;
+	margin-right: -1rem;
+}
+
 /* --------------QUESTIONS */
 #questions {
 	padding: 6rem 8rem;
